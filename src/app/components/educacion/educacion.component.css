@@ -1,0 +1,55 @@
+#educacion {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+
+
+@media (min-width: 768px) {
+    .miEducacion section {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+
+        margin-right: 10rem;
+        column-gap: 5rem;
+
+    }
+
+    .edu {
+        grid-row: 1 / 9;
+        margin-top: 2rem;
+        margin-left: 15rem;
+    }
+
+}
+
+.miEducacion section {
+    margin-bottom: 7rem;
+}
+
+
+.eduLogo {
+
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+
+}
+
+.edu {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.miEducacion span {
+    font-size: 1.8rem;
+    color: var(--primario);
+}
+
+ul {
+    padding-left: 1.5rem;
+}
+

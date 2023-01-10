@@ -1,0 +1,45 @@
+@media (min-width: 768px) {
+    header {
+        height: 9rem;
+        margin-bottom: 0.5rem;
+        background-image: url(../../../assets/img/arg-programa.png);
+        background-repeat: no-repeat;
+        background-size: 20rem;
+        background-position-y: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+}
+
+@media (min-width: 768px) {
+    .logo {
+        width: 20rem;
+
+    }
+
+    .red {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    header {
+        height: 13rem;
+        background-image: url(../../../assets/img/logo.png);
+        background-size: 10rem;
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-position-x: center;
+    }
+
+    .redes {
+        display: none;
+    }
+}

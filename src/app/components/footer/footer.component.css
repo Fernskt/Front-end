@@ -1,0 +1,33 @@
+/* Footer*/
+@media (min-width: 768px) {
+    .footer {
+        background-image: url(../../../assets/img/APLogo.png);
+        background-repeat: no-repeat;
+        background-size: 15rem;
+        background-position-y: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+
+    }
+}
+
+.footer {
+    text-align: center;
+    background-color: #4d6994;
+    padding: 1rem;
+    margin-top: 2rem;
+    color: var(--blanco);
+    border-radius: 1rem;
+
+}
+
+.redes_footer {
+    filter: invert();
+    
+}
+
+.red{
+    margin-left: 1.5rem;
+}

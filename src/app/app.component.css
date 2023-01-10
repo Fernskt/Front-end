@@ -1,0 +1,126 @@
+:root {
+    --oscuro: #131106;
+    --primario: #4d6994;
+    --secundario: #ff5882;
+    --terciario: #ffc219;
+    --blanco: #ffffff;
+}
+
+/* Globales */
+
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    /* Hack para Box Model*/
+    scroll-snap-type: mandatory;
+    scroll-behavior: smooth;
+    animation: aparecer 1.5s;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 16px;
+    /* 1rem = 10px*/
+    font-family: 'Krub', sans-serif;
+    background-image: linear-gradient(to top, #d3e6fa 0%, var(--blanco) 100%);
+}
+
+/*header{
+    display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+   align-items: center;
+}
+.logo {
+   
+    width: 20rem;
+    height: 7rem;
+    
+}
+*/
+
+
+
+.boton {
+    background-color: var(--primario);
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 0.5rem;
+    border: none;
+    width: 90%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.boton span {
+    position: relative;
+    z-index: 2;
+    transition: .5s ease-in-out all;
+}
+
+@media (min-width: 768px) {
+    .boton {
+        width: auto;
+    }
+}
+
+/* Efecto botones*/
+
+.boton::after {
+    content: "";
+    width: 1px;
+    height: 1px;
+    background: none;
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transition: .5s ease-in-out all;
+    border-radius: 100px;
+    transform-origin: center;
+
+}
+
+.boton:hover::after {
+    cursor: pointer;
+    transform: scale(200);
+    background: var(--secundario);
+}
+
+/*Animaciones*/
+
+.mi-seccion {
+    /* Estilos de la animación */
+    transition: all 1s ease;
+    transform: translateY(100px);
+    opacity: 0;
+}
+
+.mi-seccion.active {
+    /* Estilos de la animación cuando está activa */
+    transform: translateY(0);
+    opacity: 1;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
