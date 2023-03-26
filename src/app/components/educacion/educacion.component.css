@@ -1,5 +1,5 @@
 #educacion {
-    margin-top: 5rem;
+    margin-top: 2rem;
     text-align: center;
 }
 
@@ -10,7 +10,7 @@
         display: grid;
         grid-template-columns: 1fr 2fr;
 
-        margin-right: 10rem;
+        margin-right: 5rem;
         column-gap: 5rem;
 
     }
@@ -24,15 +24,16 @@
 }
 
 .miEducacion section {
-    margin-bottom: 7rem;
+    margin-bottom: 3rem;
 }
 
 
 .eduLogo {
 
-    width: 12rem;
-    height: 12rem;
+    width: 8rem;
+    height: 8rem;
     border-radius: 50%;
+    margin-bottom: 2rem;
 
 }
 

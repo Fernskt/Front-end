@@ -12,6 +12,7 @@ import { HabilidadesComponent } from './components/habilidades/habilidades.compo
 
 import { ContactoComponent } from './components/contacto/contacto.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { ModalComponent } from './components/modal/modal.component';
 
 
 
@@ -26,7 +27,8 @@ import { FooterComponent } from './components/footer/footer.component';
     ConocimientosComponent,
     HabilidadesComponent,
     ContactoComponent,
-    FooterComponent
+    FooterComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule

@@ -1,5 +1,5 @@
 .titulo{
-    margin-bottom: 0.3rem;
+    margin-bottom: 1rem;
 }
 
 .an {
@@ -37,8 +37,9 @@
 
 
 .ubicacion {
+    margin: 2rem;
     display: flex;
-
+   
 }
 
 .blink {

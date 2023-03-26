@@ -1,7 +1,7 @@
 .sobremi {
     line-height: 1.5;
     text-align: center;
-    margin: 5rem;
+    margin: 3rem;
     margin-bottom: 5rem;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .img {
-    width: 18rem;
+    width: 14rem;
     border-radius: 50%;
     border: 5px;
     border-color: var(--blanco);
