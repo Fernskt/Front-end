@@ -16,7 +16,7 @@
 
 @media (min-width: 768px) {
     .skill{
-        margin: 4rem 5rem;
+        margin: 2rem 5rem;
         text-align: center;
     }
 }
@@ -42,7 +42,7 @@
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    background-color: #ebebeb;
+    background-color: #030303;
 }
 
 .progress-circle:after {
@@ -73,35 +73,36 @@
     margin-top: -45px;
     text-align: center;
     border-radius: 50%;
-    background: #fff;
+    background: var(--oscuro);
     z-index: 1;
 }
 
-.progress-circle span:after {
-    content: "%";
-    font-weight: 600;
-    color: #8b8b8b;
+.progress-circle span {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .progress-circle.progress-65:after { 
-    background-image: linear-gradient(-36deg, #4d6994 50%, transparent 50%, transparent), linear-gradient(270deg, #4d6994 50%, #ebebeb 50%, #ebebeb); 
+    background-image: linear-gradient(-36deg, #62139b 50%, transparent 50%, transparent), linear-gradient(270deg, #62139b 50%, #62139b2d 50%, #62139b2d); 
 }
 .progress-circle.progress-78:after { 
-    background-image: linear-gradient(10.8deg, #4d6994 50%, transparent 50%, transparent), linear-gradient(270deg, #4d6994 50%, #ebebeb 50%, #ebebeb);
+    background-image: linear-gradient(10.8deg, #62139b 50%, transparent 50%, transparent), linear-gradient(270deg, #62139b 50%, #62139b2d 50%, #62139b2d);
 }
 .progress-circle.progress-75:after {
-    background-image: linear-gradient(0deg, #4d6994 50%, transparent 50%, transparent), linear-gradient(270deg, #4d6994 50%, #ebebeb 50%, #ebebeb);
+    background-image: linear-gradient(0deg, #62139b 50%, transparent 50%, transparent), linear-gradient(270deg, #62139b 50%, #62139b2d 50%, #62139b2d);
 }
 
 .progress-circle.progress-70:after {
-    background-image: linear-gradient(-18deg, #4d6994 50%, transparent 50%, transparent), linear-gradient(270deg, #4d6994 50%, #ebebeb 50%, #ebebeb);
+    background-image: linear-gradient(-18deg, #62139b 50%, transparent 50%, transparent), linear-gradient(270deg, #62139b 50%, #62139b2d 50%, #62139b2d);
 }
 
 .progress-circle.progress-35:after {
-    background-image: linear-gradient(90deg, #ebebeb 50%, transparent 50%, transparent), linear-gradient(216deg, #4d6994 50%, #ebebeb 50%, #ebebeb);
+    background-image: linear-gradient(90deg, #62139b2d 50%, transparent 50%, transparent), linear-gradient(216deg, #62139b 50%, #62139b2d 50%, #62139b2d);
 }
 
 .progress-circle.progress-50:after {
-    background-image: linear-gradient(-90deg, #4d6994 50%, transparent 50%, transparent), linear-gradient(270deg, #4d6994 50%, #ebebeb 50%, #ebebeb);
+    background-image: linear-gradient(-90deg, #62139b 50%, transparent 50%, transparent), linear-gradient(270deg, #62139b 50%, #62139b2d 50%, #62139b2d);
 }
 
 /*Animaciones de los circulos*/
@@ -116,4 +117,8 @@
         opacity: 1;
         transform: rotate(360deg);
     }
+}
+
+.skillsimg {
+    width: 3rem;
 }

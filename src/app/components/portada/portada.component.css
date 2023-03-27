@@ -39,7 +39,7 @@
 .ubicacion {
     margin: 2rem;
     display: flex;
-   
+    align-items: baseline;
 }
 
 .blink {

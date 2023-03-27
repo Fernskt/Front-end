@@ -15,11 +15,11 @@
 
 .footer {
     text-align: center;
-    background-color: #4d6994;
+    background-color: var(--oscuro);
     padding: 2rem;
-    margin-top: 1rem;
+    margin-top: 3rem;
     color: var(--blanco);
-    border-radius: 1rem;
+    
 
 }
 

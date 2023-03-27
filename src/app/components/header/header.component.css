@@ -2,7 +2,7 @@
     header {
         height: 5rem;
         margin-bottom: 0.5rem;
-        background-image: url(../../../assets/img/arg-programa.png);
+        background-image: url(../../../assets/img/APLogo.png);
         background-repeat: no-repeat;
         background-size: 12rem;
         background-position-y: center;
@@ -24,22 +24,27 @@
     .red {
         margin-left: 10px;
         margin-right: 10px;
+        filter: invert();
     }
 }
 
 
 
 @media (max-width: 768px) {
-    header {
-        height: 10rem;
-        background-image: url(../../../assets/img/logo.png);
-        background-size: 7rem;
-        background-repeat: no-repeat;
-        background-position-y: center;
-        background-position-x: center;
+    .redes{
+        height: 4rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    .red {
+        margin-left: 10px;
+        margin-right: 10px;
+        filter: invert();
+        
+    }
     }
 
-    .redes {
-        display: none;
-    }
-}
+    
+

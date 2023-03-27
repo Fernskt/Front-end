@@ -1,10 +1,4 @@
-:root {
-    --oscuro: #131106;
-    --primario: #4d6994;
-    --secundario: #ff5882;
-    --terciario: #ffc219;
-    --blanco: #ffffff;
-}
+
 .nav-bg {
     background-color: var(--primario);
 }
@@ -20,15 +14,6 @@
         flex-direction: row;
         justify-content: space-around;
     }
-}
-
-.sombra {
-    -webkit-box-shadow: 0px 5px 15px 0px rgba(170, 170, 170, 0.77);
-    -moz-box-shadow: 0px 5px 15px 0px rgba(170, 170, 170, 0.77);
-    box-shadow: 0px 5px 15px 0px rgba(170, 170, 170, 0.77);
-    background-color: var(--blanco);
-    padding: 2rem;
-    border-radius: 1rem;
 }
 
 .navegacion-principal a {
