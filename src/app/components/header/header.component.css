@@ -26,6 +26,9 @@
         margin-right: 10px;
         filter: invert();
     }
+    .responsivo{
+        display: none;
+    }
 }
 
 
@@ -44,7 +47,31 @@
         filter: invert();
         
     }
+    .barraRedes{
+        display: none; 
     }
-
     
+    }
+.container-fluid{
+    height: 3rem;
+}
+.navbar{
+    height: 4rem;
+    backdrop-filter: blur(10px);
+    background-color: rgba(13, 8, 24, 0.909) !important;
+    
+}
+.offcanvas-title,
+.offcanvas-header, 
+.offcanvas-body{
+    background-color: rgb(13, 8, 24);
+    
+}
 
+.navbar-dark {
+--bs-navbar-toggler-border-color: rgba(255, 255, 255, 0);
+}
+.responsivo{
+    
+    height: 4rem;
+}

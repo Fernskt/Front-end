@@ -12,7 +12,7 @@ function animateOnScroll(selector, animationClass) {
     var screenHeight = window.innerHeight;
 
     // Comprobar si el elemento está en el área visible de la pantalla
-    if (elementPosition < screenHeight) {
+    if (elementPosition < screenHeight)  {
       // Añadir la clase especificada en la variable animationClass al elemento para iniciar la animación
       element.classList.add(animationClass)
     }
@@ -21,6 +21,12 @@ function animateOnScroll(selector, animationClass) {
 
 window.addEventListener('scroll', function() {
   animateOnScroll('.mi-seccion', 'active');
+});
+window.addEventListener('scroll', function() {
+  animateOnScroll('.mi-seccion2', 'active');
+});
+window.addEventListener('scroll', function() {
+  animateOnScroll('.mi-seccion3', 'active');
 });
 
 window.addEventListener('scroll', function() {
@@ -34,15 +40,15 @@ let text = ">FullStack Developer Jr. ";
 
 function typeWriter() {
   if (i < text.length) {
-    document.getElementById("text").innerHTML += text.charAt(i);
+    document.getElementById("txt").innerHTML += text.charAt(i);
     i++;
     setTimeout(typeWriter, 100);
   } else {
     // Crea un intervalo de parpadeo cada 500 milisegundos
     setInterval(function() {
-      document.getElementById("text").innerHTML = text.substring(0, text.length - 1) + " _";
+      document.getElementById("txt").innerHTML = text.substring(0, text.length - 1) + " _";
       setTimeout(function() {
-        document.getElementById("text").innerHTML = text;
+        document.getElementById("txt").innerHTML = text;
       }, 250);
     }, 500);
   }

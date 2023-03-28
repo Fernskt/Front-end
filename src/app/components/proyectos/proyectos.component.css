@@ -1,0 +1,25 @@
+.proyectos{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtitulo{
+    color: var(--primario);
+}
+
+.carrusel{
+    max-width: 50rem;
+    margin: 2rem 0rem;
+    
+}
+.carousel-inner{
+    border-radius: .5rem;
+}
+
+@media (min-width: 768px) {
+    .carrusel { 
+        margin: 3rem 3rem;
+    }
+}

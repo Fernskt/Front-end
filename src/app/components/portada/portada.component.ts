@@ -19,7 +19,7 @@ export class PortadaComponent implements OnInit {
   }
 
   startAnimation() {
-    const message = '>Desarrollador web Fullstack_';
+    const message = '>Fullstack Developer Jr._';
     let i = 0;
   
     // Emite un valor cada 100 milisegundos

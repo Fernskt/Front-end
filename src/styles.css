@@ -119,7 +119,7 @@ body {
 
 .mi-seccion {
   /* Estilos de la animación */
-  transition: all 1s ease;
+  transition: all 1.5s ease;
   transform: translateY(100px);
   opacity: 0;
 }
@@ -128,6 +128,32 @@ body {
   /* Estilos de la animación cuando está activa */
   transform: translateY(0);
   opacity: 1;
+}
+
+.mi-seccion2 {
+  /* Estilos de la animación */
+  transition: all 2s ease;
+  transform: translateX(-100px);
+  
+}
+
+.mi-seccion2.active {
+  /* Estilos de la animación cuando está activa */
+  transform: translateX(0);
+  
+}
+
+.mi-seccion3 {
+  /* Estilos de la animación */
+  transition: all 2s ease;
+  transform: translateX(100px);
+  
+}
+
+.mi-seccion3.active {
+  /* Estilos de la animación cuando está activa */
+  transform: translateX(0);
+  
 }
 
 @keyframes aparecer {
