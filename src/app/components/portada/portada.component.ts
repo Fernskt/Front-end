@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { interval, Subject } from 'rxjs';
 import { map, takeWhile } from 'rxjs/operators';
 import { OnInit } from '@angular/core';
+import { persona } from 'src/app/model/persona.model';
+import { PersonaService } from 'src/app/service/persona.service';
 
 
 @Component({
@@ -14,7 +16,12 @@ import { OnInit } from '@angular/core';
 export class PortadaComponent implements OnInit {
   animationSubject = new Subject<string>();
 
+  persona: persona = new persona("","","");
+
+  constructor(public personaService: PersonaService) { }
+
   ngOnInit() {
+    this.personaService.getPersona().subscribe(data => {this.persona = data})
     this.startAnimation();
   }
 
