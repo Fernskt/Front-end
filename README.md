@@ -4,15 +4,7 @@ Este proyecto es mi portfolio personal, desarrollado como parte del programa Arg
 
 [![1.png](https://i.postimg.cc/d3GMPK0F/1.png)](https://postimg.cc/PvfVY9ZV)
 
-[![2.png](https://i.postimg.cc/7ZxFcdrv/2.png)](https://postimg.cc/RNDpJP0G)
 
-[![3.png](https://i.postimg.cc/DydVxFDd/3.png)](https://postimg.cc/KRzszXmR)
-
-[![4.png](https://i.postimg.cc/hPqW8hCt/4.png)](https://postimg.cc/gr4TmcFC)
-
-[![5.png](https://i.postimg.cc/y8vMzj7D/5.png)](https://postimg.cc/CRnPGjB0)
-
-[![6.png](https://i.postimg.cc/jqfYJy41/6.png)](https://postimg.cc/MXzFCM40)
 
 <h2>Descripción</h2>
 El portfolio tiene como objetivo presentar mi perfil profesional y mostrar mi experiencia en el desarrollo de aplicaciones web. En la sección de inicio se encuentra mi presentación y una lista de las habilidades que he desarrollado a lo largo de mi carrera. En la sección de proyectos, presento algunos de los trabajos que he realizado, describiendo las tecnologías utilizadas y los desafíos que se presentaron en cada caso.
@@ -68,3 +60,13 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+[![2.png](https://i.postimg.cc/7ZxFcdrv/2.png)](https://postimg.cc/RNDpJP0G)
+
+[![3.png](https://i.postimg.cc/DydVxFDd/3.png)](https://postimg.cc/KRzszXmR)
+
+[![4.png](https://i.postimg.cc/hPqW8hCt/4.png)](https://postimg.cc/gr4TmcFC)
+
+[![5.png](https://i.postimg.cc/y8vMzj7D/5.png)](https://postimg.cc/CRnPGjB0)
+
+[![6.png](https://i.postimg.cc/jqfYJy41/6.png)](https://postimg.cc/MXzFCM40)
