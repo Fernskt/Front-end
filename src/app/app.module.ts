@@ -14,6 +14,7 @@ import { ContactoComponent } from './components/contacto/contacto.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ModalComponent } from './components/modal/modal.component';
 import { ProyectosComponent } from './components/proyectos/proyectos.component';
+import { FormsModule } from '@angular/forms';
 import { HttpClient, HttpClientModule } from '@angular/common/http'
 
 
@@ -35,6 +36,7 @@ import { HttpClient, HttpClientModule } from '@angular/common/http'
   ],
   imports: [
     BrowserModule,
+    FormsModule,
     HttpClientModule
   ],
   providers: [],
