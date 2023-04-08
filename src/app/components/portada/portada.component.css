@@ -1,9 +1,11 @@
 .titulo{
+    
     margin-bottom: 1rem;
 }
 
 .an {
-    color: var(--blanco);
+    color: var(--primario);
+
 }
 
 .hero {
